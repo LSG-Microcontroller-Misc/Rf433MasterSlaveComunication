@@ -15,11 +15,11 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Rf433Slave.ino" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="__vm\.Rf433Slave.vsarduino.h">
+    <ClInclude Include="__vm\.RF433-Master.vsarduino.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="RF433-Master.ino" />
   </ItemGroup>
 </Project>

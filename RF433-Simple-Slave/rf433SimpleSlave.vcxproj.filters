@@ -15,11 +15,17 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Rf433Master.ino" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="__vm\.Rf433Master.vsarduino.h">
+    <ClInclude Include="..\..\Libraries\LSG_RFWirelessMessages\RFWirelessReceiver.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="__vm\.RF433-Simple-Slave.vsarduino.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Libraries\LSG_RFWirelessMessages\RFWirelessReceiver.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RF433-Simple-Slave.ino" />
   </ItemGroup>
 </Project>
